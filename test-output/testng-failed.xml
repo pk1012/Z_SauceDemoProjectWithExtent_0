@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.sauceDemo.TestClasses.TC03_VerifyAllProductsCanBeAddedToCart">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuit"/>
+          <include name="setUp"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="verifyAllProductsCanBeAddedToCart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestClasses.TC03_VerifyAllProductsCanBeAddedToCart -->
+      <class name="com.sauceDemo.TestClasses.TC04_VerifyTheFliterFunctionality">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuit"/>
+          <include name="setUp"/>
+          <include name="beforeClass"/>
+          <include name="verifyTheFliterFunctionality"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestClasses.TC04_VerifyTheFliterFunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
